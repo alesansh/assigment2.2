@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img src= "titanic.jpg" alt="Poster-image" class="poster-image" height="250px" width="300px">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic Movie Poster</title>
+
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            background-blend-mode: darken;
+            background-image: url('Stöwer_Titanic.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+        }
+
+        /* Typography */
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #00f;
+            text-decoration: none;
+        }
+
+        /* Layout */
+        header {
+            margin-bottom: 20px;
+        }
+
+        .cast {
+            margin: 20px 0;
+        }
+
+        .footer {
+            margin-top: 40px;
+        }
+
+        .awards {
+            font-style: italic;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titanic</h1>
+    </header>
+    <main>
+        <h2>From the Director of "Terminator 2" and "Aliens"</h2>
+        <p>A James Cameron Film</p>
+        <div class="cast">
+            <p>Starring</p>
+            <p>Leonardo DiCaprio</p>
+            <p>Kate Winslet</p>
+        </div>
+        <p>Nothing On Earth Could Come Between Them</p>
+        <div class="awards">
+            <p>Winner of 11 Academy Awards Including Best Picture</p>
+        </div>
+        <div class="footer">
+            <p>Official Website: <a href="http://www.titanicmovie.com" target="_blank">www.titanicmovie.com</a></p>
+        </div>
+    </main>
+</body>
+</html>
